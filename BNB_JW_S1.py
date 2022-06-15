@@ -24,7 +24,7 @@ start = time.time()
 # In[3]:
 
 
-st.title('Airbnb Travel Destination Predictor')
+#st.title('Airbnb Travel Destination Predictor')
 st.subheader("(A model deployment by Harshal Pal)")
 st.write('''
 

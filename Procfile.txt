@@ -1,1 +1,1 @@
-web: gunicorn  BNB_JW_S1:app --log-file -
+web: gunicorn  BNB_JW_S1:app

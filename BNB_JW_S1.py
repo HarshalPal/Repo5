@@ -547,7 +547,7 @@ class Stacking_classifier():
 # In[51]:
 
 
-modelsc = pickle.load(open('modelxg2.pkl', 'rb'))
+modelsc = pickle.load(open('modelrf.pkl', 'rb'))
 
 
 # In[52]:

@@ -310,8 +310,8 @@ print('Shape:',vector_gender.shape)
 
 # vectorizing action
 
-vector_action = action_vectorizer.transform(action)
-
+#vector_action = action_vectorizer.transform(action)
+vector_action = pickle.load(open('action_vector.pkl', 'rb'))
 print('Shape:',vector_action.shape)
 #print(vector_action.toarray())
 #vector_action

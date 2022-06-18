@@ -280,7 +280,7 @@ secs_elapsed = query_point['secs_elapsed'].values
 # bringing in the pre-trained vectorizers and the Model
 path = 'C:\BNB_Deployment\Model_Vectors'
 
-gender_vectorizer = pickle.load(open(path + '\gender_vectorizer.pkl', 'rb'))
+gender_vectorizer = pickle.load(open('gender_vectorizer.pkl', 'rb'))
 action_vectorizer = pickle.load(open(path + '/action_vectorizer.pkl', 'rb'))
 action_detail_vectorizer = pickle.load(open(path + '/action_detail_vectorizer.pkl', 'rb'))
 action_type_vectorizer = pickle.load(open(path + '/action_type_vectorizer.pkl', 'rb'))

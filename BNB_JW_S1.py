@@ -547,7 +547,7 @@ class Stacking_classifier():
 # In[51]:
 
 
-modelsc = pickle.load(open('C:\BNB_Deployment/model.pkl', 'rb'))
+modelsc = pickle.load(open('modelxg2.pkl', 'rb'))
 
 
 # In[52]:
@@ -556,7 +556,7 @@ modelsc = pickle.load(open('C:\BNB_Deployment/model.pkl', 'rb'))
 from sklearn.model_selection import train_test_split
 from scipy.sparse import hstack
 
-preds = modelsc.proba_predict(input)
+preds = modelsc.predict_proba(input)
 
 
 # In[53]:

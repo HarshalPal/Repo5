@@ -281,7 +281,7 @@ secs_elapsed = query_point['secs_elapsed'].values
 path = 'C:\BNB_Deployment\Model_Vectors'
 
 gender_vectorizer = pickle.load(open('gender_vectorizer.pkl', 'rb'))
-action_vectorizer = pickle.load(open('action_vectorizer.pkl', 'rb'))
+#action_vectorizer = pickle.load(open('action_vectorizer.pkl', 'rb'))
 action_detail_vectorizer = pickle.load(open('action_detail_vectorizer.pkl', 'rb'))
 action_type_vectorizer = pickle.load(open('action_type_vectorizer.pkl', 'rb'))
 affiliate_channel_vectorizer = pickle.load(open('affiliate_channel_vectorizer.pkl', 'rb'))

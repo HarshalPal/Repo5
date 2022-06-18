@@ -286,11 +286,11 @@ action_detail_vectorizer = pickle.load(open('action_detail_vectorizer.pkl', 'rb'
 action_type_vectorizer = pickle.load(open('action_type_vectorizer.pkl', 'rb'))
 affiliate_channel_vectorizer = pickle.load(open('affiliate_channel_vectorizer.pkl', 'rb'))
 affiliate_provider_vectorizer = pickle.load(open('affiliate_provider_vectorizer.pkl', 'rb'))
-first_browser_vectorizer = pickle.load(open(path + '/first_browser_vectorizer.pkl', 'rb'))
-first_device_type_vectorizer = pickle.load(open(path + '/first_device_type_vectorizer.pkl', 'rb'))
-language_vectorizer = pickle.load(open(path + '/language_vectorizer.pkl', 'rb'))
-signup_app_vectorizer = pickle.load(open(path + '/signup_app_vectorizer.pkl', 'rb'))
-signup_method_vectorizer = pickle.load(open(path + '/signup_method_vectorizer.pkl', 'rb'))
+first_browser_vectorizer = pickle.load(open('first_browser_vectorizer.pkl', 'rb'))
+first_device_type_vectorizer = pickle.load(open('first_device_type_vectorizer.pkl', 'rb'))
+language_vectorizer = pickle.load(open('language_vectorizer.pkl', 'rb'))
+signup_app_vectorizer = pickle.load(open('signup_app_vectorizer.pkl', 'rb'))
+signup_method_vectorizer = pickle.load(open('signup_method_vectorizer.pkl', 'rb'))
 
 
 # # Vectorizing non-numeric features

@@ -281,11 +281,11 @@ secs_elapsed = query_point['secs_elapsed'].values
 path = 'C:\BNB_Deployment\Model_Vectors'
 
 gender_vectorizer = pickle.load(open('gender_vectorizer.pkl', 'rb'))
-action_vectorizer = pickle.load(open(path + '/action_vectorizer.pkl', 'rb'))
-action_detail_vectorizer = pickle.load(open(path + '/action_detail_vectorizer.pkl', 'rb'))
-action_type_vectorizer = pickle.load(open(path + '/action_type_vectorizer.pkl', 'rb'))
-affiliate_channel_vectorizer = pickle.load(open(path + '/affiliate_channel_vectorizer.pkl', 'rb'))
-affiliate_provider_vectorizer = pickle.load(open(path + '/affiliate_provider_vectorizer.pkl', 'rb'))
+action_vectorizer = pickle.load(open('action_vectorizer.pkl', 'rb'))
+action_detail_vectorizer = pickle.load(open('action_detail_vectorizer.pkl', 'rb'))
+action_type_vectorizer = pickle.load(open('action_type_vectorizer.pkl', 'rb'))
+affiliate_channel_vectorizer = pickle.load(open('affiliate_channel_vectorizer.pkl', 'rb'))
+affiliate_provider_vectorizer = pickle.load(open('affiliate_provider_vectorizer.pkl', 'rb'))
 first_browser_vectorizer = pickle.load(open(path + '/first_browser_vectorizer.pkl', 'rb'))
 first_device_type_vectorizer = pickle.load(open(path + '/first_device_type_vectorizer.pkl', 'rb'))
 language_vectorizer = pickle.load(open(path + '/language_vectorizer.pkl', 'rb'))
